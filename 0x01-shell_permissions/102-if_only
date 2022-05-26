@@ -1,0 +1,5 @@
+#!/bin/bash
+uname2="uname2=$(ls -l hello | awk '{print $3}');
+if [ "x${uname2}" = "guillaume" ]; then
+    chown betty hello
+fi
