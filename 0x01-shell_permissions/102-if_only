@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(stat --format '%U' test)" == "guillaume" ] then chown betty hello fi 
+if [ "$(stat --format '%U' hello)" == "guillaume" ] then chown betty hello fi 
