@@ -1,2 +1,2 @@
 #!/bin/bash
-uname2=$(stat --format '%U' hello); if [ "$uname" == "guillaume" ]; then chown betty hello; fi 
+if [ "$(stat --format '%U' test)" == "guillaume" ] then chown betty hello fi 
